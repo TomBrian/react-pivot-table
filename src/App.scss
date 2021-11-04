@@ -1,0 +1,57 @@
+.tables-wrapper{
+    width: 100%;
+    td,th{
+        width:fit-content;
+        min-width: 150px;
+        white-space: nowrap;
+        text-align: center !important;
+    }
+    .main-td{   
+        padding-top: 20px;
+        .subcat-td{
+             padding-top: 5px;
+        padding-bottom: 5px;
+        }
+    }
+    .total{
+        background-color: #efefef;
+    }
+.products{
+    background-color: #F8F9FA;
+    .table-wrap{
+        width:100%;
+        table{
+            width: 100%;
+           thead{
+             position: sticky;
+
+           }
+            td{
+                position: relative;
+            }
+            .remove-category{
+                height: 30px;
+                width:30px;
+                font-size: 20px;
+                font-weight: bolder;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+        }
+    }
+}
+.states{
+    width: 75%;
+    // background-color: red;
+    .table-wrap{
+        width: 100%;
+        height: fit-content;
+         overflow-x: scroll;
+         overflow-y: auto;
+     
+        // overflow-x: scroll;
+    }
+}
+}
