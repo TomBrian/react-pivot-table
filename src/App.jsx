@@ -1,3 +1,5 @@
+/*This is a very huge component, you cannot scale up your application since minor changes will break the whole application
+try to break them down into small manageable section RE USE LOGIC!! */
 import React, { Component } from 'react';
 const axios = require('axios');
 class Pivot extends Component {
